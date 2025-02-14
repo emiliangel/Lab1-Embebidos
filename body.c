@@ -93,6 +93,3 @@ for (int i=0; i<MAX_CIRCULAR; i++) {
 handler_cq(&cola_cirq);
 
 }
-
-
-
