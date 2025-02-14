@@ -73,8 +73,8 @@ GPIO_ITEM dequeue_cq (Cola_cirq*cola) {
         }
         return aux;
     }else {
-        printf ("La cola esta vacia\n"); 
-        exit (1);///ver
+        printf ("La cola circular esta vacia\n"); 
+        exit (0);///ver
     }
 }
 //Ver elemento en inicio de la cola

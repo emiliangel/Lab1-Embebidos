@@ -75,7 +75,6 @@ handler_lq (&cola_linear, spi_item3, SDI);
 handler_lq (&cola_linear, spi_item4, SDI);
 handler_lq (&cola_linear, spi_item5, SDO);
 
-
 /*------------------------------------------------------*/
 
 /*------------------------------------------------------*/
@@ -87,6 +86,7 @@ Cola_cirq cola_cirq;
 
 //Procesos en cola circular
 new_cq (&cola_cirq); //Se inicia cola circular
+
 for (int i=0; i<MAX_CIRCULAR; i++) {
   enqueue_cq (&cola_cirq, gpio_item[i]); //Se encola vector
 }

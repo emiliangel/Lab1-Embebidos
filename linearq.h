@@ -107,8 +107,8 @@ SPI_ITEM dequeue_lq (Cola_linear* cola_linear) {
             return aux;
         }   
     }else{
-        printf ("la cola_linear está vacía\n");
-        exit (1);
+        printf ("la cola lineal esta vacia\n");
+        exit (0);
     }
 
     
